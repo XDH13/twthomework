@@ -1,39 +1,3 @@
-public class Seagate {
-	private String name = "世嘉";
-    private String paizi = "Seagate";
-    private int price = 12390;
-    private String volume =  "1TB"; 
-	public String getName() {
-	        return name;
-	    }
 
-	    public void setName(String name) {
-	        this.name = name;
-	    }
-
-	    public String getPaizi() {
-	        return paizi;
-	    }
-
-	    public void setPaizi(String paizi) {
-	        this.paizi = paizi;
-	    }
-
-	    public int getPrice() {
-	        return price;
-	    }
-
-	    public void setPrice(int price) {
-	        this.price = price;
-	    }
-	    public String getvolume() {
-	        return volume;
-	    }
-	    public void setcoreNum(String volume) {
-	        this.volume = volume;
-}
-	    public void show() {
-	    	System.out.println(this.name +"\t"+ this.paizi +"\t"+ this.price +"\t"+ this.volume );
-	    }
 }
 	    
