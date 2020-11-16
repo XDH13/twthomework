@@ -1,0 +1,44 @@
+package 计算机;
+
+public class Asus {
+	private String name = "华硕";
+	private String paizi = "Asus";
+	private int price = 1230;
+	private String speed = "1M/100M/1000M";
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getPaizi() {
+		return paizi;
+	}
+
+	public void setPaizi(String paizi) {
+		this.paizi = paizi;
+	}
+
+	public int getPrice() {
+		return price;
+	}
+
+	public void setPrice(int price) {
+		this.price = price;
+	}
+
+	public String getspeed() {
+		return speed;
+	}
+
+	public void setcoreNum(String speed) {
+		this.speed = speed;
+	}
+
+	public void show() {
+		System.out.println(this.name + "\t" + this.paizi + "\t" + this.price + "\t" + this.speed);
+	}
+}
